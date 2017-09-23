@@ -1,0 +1,10 @@
+require {
+	"address.sddl"
+}
+
+Call (
+	Request@0 = Address
+	Response@1 = -> boolean
+	Full@2 = Address -> boolean
+	Obsolete@3 = delete
+)

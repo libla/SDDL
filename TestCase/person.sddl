@@ -1,0 +1,14 @@
+require {
+	"phone.sddl"
+}
+
+integer Person_MALE = 1
+integer Person_FEMALE = 2
+
+Person {
+  string name @1
+  integer id @2  # Unique ID number for this person.
+  integer sex @3 = Person_MALE
+  string email @4 = option
+  Phone phones @5 = table
+}

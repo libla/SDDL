@@ -1,0 +1,7 @@
+require {
+	"person.sddl"
+}
+
+Address {
+	Person persons @1 = array
+}

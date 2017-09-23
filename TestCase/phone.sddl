@@ -1,0 +1,8 @@
+integer Phone_MOBILE = 0
+integer Phone_HOME = 1
+integer Phone_WORK = 2
+
+Phone {
+	string no @1
+	integer type @2 = Phone_MOBILE
+}
